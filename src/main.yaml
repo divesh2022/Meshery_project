@@ -1,0 +1,22 @@
+name: BinarySearchProject
+components:
+  - ArrayInputComponent
+  - SizeInputComponent
+  - ValueInputComponent
+  - DataValidationComponent
+  - ArrayBoxCreationComponent
+  - BinarySearchFunctionComponent
+  - MiddleValueCalculationComponent
+  - ComparisonOperationsComponent
+  - ResultDisplayComponent
+flows:
+  - name: MainFlow
+    steps:
+      - name: InputData
+        component: ArrayInputComponent
+      - name: ValidateData
+        component: DataValidationComponent
+      - name: SearchBinary
+        component: BinarySearchFunctionComponent
+      - name: DisplayResult
+        component: ResultDisplayComponent
