@@ -6,5 +6,5 @@ This repository contains a Meshery project for implementing binary search on a l
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/divesh2022/meshery-binary-search.git
+   git clone https://github.com/divesh2022/meshery_project.git
    cd meshery-binary-search
